@@ -208,7 +208,7 @@ main header span {
 /* blue-inner with tesemonial section  */
 
 .message .btn {
-  padding: 10px 30px;
+  padding: 6px 20px;
   color: #fff;
   transition: 0.4s;
 }
@@ -241,4 +241,51 @@ main header span {
 
 footer {
   background-color: #0062d3;
+}
+/* =============== Media ===================== */
+
+@media screen and (max-width: 768px) {
+  main header {
+    color: #fff;
+    font-size: 28rem;
+  }
+
+  main h1 {
+    font-size: 40px;
+  }
+
+  main header span {
+    height: 1px !important;
+  }
+
+  .typed-cursor {
+    font-size: 25px;
+    font-weight: 500;
+    color: transparent;
+    padding-top: 20px;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  main header {
+    color: #fff;
+    font-size: 32rem;
+  }
+
+  main h1 {
+    font-size: 60px;
+  }
+
+  main header span {
+    height: 1px !important;
+  }
+
+  .typed-cursor {
+    font-size: 28px;
+    font-weight: 500;
+    color: transparent;
+    padding-top: 20px;
+    display: none;
+  }
 }
